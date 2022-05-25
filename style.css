@@ -1,0 +1,296 @@
+
+/*general styling*/
+*{
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+  
+  
+  
+}
+body{
+  font-family: 'Poppins', sans-serif; 
+  background-color:#EEB0B0;
+  
+  
+  
+  
+}
+.website{
+  padding:0 70px;
+}
+/*navigation bar*/
+.navbar{
+  width:100%;
+  height:80px;
+  background-color:#9A86A4;
+  line-height:75px;
+  padding:0px 80px;
+  
+}
+
+.navtext ul{
+  float:right;
+  margin-right: 20px;
+}
+.navtext ul li{
+  display:inline-block;
+  list-style:none;
+  line-height: 80px;
+  margin: 0 5px;
+
+
+}
+.navtext ul li a{
+  color:#FFFF;
+  text-decoration:none;
+  font-weight:500;
+  font-size:16px ;
+  padding:7px 32px;
+  border-radius: 3px;
+  
+  
+
+}
+.navtext ul li a:hover{
+  color:#03045E;
+}
+.logo{
+  float:left;
+  font-weight:bold;
+  
+  font-size:30px;
+  cursor:pointer;
+  position: relative;
+  letter-spacing:1.5px;
+  
+}
+.logo p a{
+  float:left;
+  color:#EDF2FB;
+  text-decoration:none;
+}
+.logo p a:hover{
+  color:#03045E;
+  transition:all 0.3s ease 0s;
+}
+
+
+
+/*landing page*/
+ .container{
+   display:flex;
+   background-color:#EFEFEF;
+   
+   
+  
+ }  
+.left{
+  flex:0.5;
+  overflow:hidden;
+}
+.right{
+  flex: 0.5;
+}
+.wrap{
+  width:100%;
+  height:100%;
+  padding-top:200px;
+  padding-left:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:centre;
+
+}
+.wrap h1{
+  font-size:40px;
+  margin:10px 0;
+}
+.wrap h2{
+  font-size:30px;
+}
+.wrap p {
+  font-size:20px;
+  font-weight:200;
+}
+
+.imagecontainer{
+  width:700px;
+  height:700px;
+  
+  background-color:#9A86A4;
+  border-radius:0px 0px 500px 0px;
+  display:flex;
+  justify-content:centre;
+  float:right;
+  
+}
+.imagecontainer img{
+  height:90%;
+  border-radius:20%;
+  position:relative;
+  top:-50px;
+  right:20%;
+  
+}
+/*Aboutr me*/
+.goals{
+ background-color:#EFEFEF;
+  
+
+}
+.goalintro{
+  padding-top:50px;
+  padding-right:200px;
+  padding-left:200px;
+  
+}
+.goalintro p
+{
+  font-weight:200;
+  font-size:25px;
+  width:70%;
+  margin:10px 0;
+  
+  justify-content:centre;
+  text-align:center;
+}
+ .goalitems #items1{
+  padding-right:205px;
+}
+.goalintro p a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+.table{
+  padding-right:20px;
+  padding-left: 70px;
+  padding-bottom:50px;
+  background-color:#EFEFEF;
+}
+#goals{
+  width:90%;
+  border-collapse: collapse;
+  height:500px;
+  
+  justify-content:centre;
+  align-items:center;
+  display:relative;
+  
+  
+  
+}
+
+#goals tr{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  right:-60px;
+  
+}
+#goals tr:hover 
+{background-color: #ddd;}
+tr.border-bottom {
+        border-bottom: 3px solid #111319
+;
+      }
+
+
+#logingwrapper{
+  width:250px;
+  height:350px;
+  position:absolute;
+  
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;
+     height:300px;
+      padding-left:40px;
+      padding-right:40px;
+    
+;
+      padding-top:40px;
+      
+     }
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f6f9ff;
+  height:100px;
+}
+
+.WhatIdo{
+  height:600px;
+  background-color:#EFEFEF;
+  
+}
+.hobyrow{
+  margin: 0 -5px;
+   height:300px;
+      padding-left:40px;
+      padding-right:40px;
+      
+      padding-top:40px;
+   
+
+      
+     }
+
+.hobyrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hobycard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f6f9ff;
+}
+.hobycolumn{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+#contact{
+  height:250px;
+  background-color:#F3E9DD;
+}
+.contactbox{
+      position:relative;
+            
+            
+            background-color:#f6f9ff;
+            width: 300px;
+            height: 250px;
+            border-radius: 10px;
+            padding: 40px;
+            padding-top: 90px;
+            text-align: center;
+            max-width: 100%;
+            font-size: 20px;
+            padding-bottom: 80px;
+            margin-left:500px;
+            
+}
+
+ 
+
